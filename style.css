@@ -1,0 +1,26 @@
+#gameBoard {
+display: flex;
+}
+
+#red {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#black {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%; 
+}
+
+.columns{
+    height: 300px;
+    width: 50px; 
+    background-color: #4d0e7a;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+}
